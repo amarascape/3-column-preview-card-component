@@ -1,0 +1,34 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --paragraphs-color: hsla(0, 0%, 100%, 0.75);
+  --background-headings-buttons-color: hsl(0, 0%, 95%);
+}
+
+/* || BOX MODEL FIX
+------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* || GLOBAL STYLES */
+body {
+  font-size: 15px;
+  /* font-family: 'Big Shoulders Display', cursive; */
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+/* || ATTRIBUTION */
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
