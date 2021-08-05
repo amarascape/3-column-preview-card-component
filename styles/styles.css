@@ -6,8 +6,7 @@
   --background-headings-buttons-color: hsl(0, 0%, 95%);
 }
 
-/* || BOX MODEL FIX
-------------------------------------- */
+/* || BOX MODEL FIX */
 html {
   box-sizing: border-box;
 }
@@ -17,10 +16,53 @@ html {
 }
 
 /* || GLOBAL STYLES */
+
 body {
   font-size: 15px;
-  /* font-family: 'Big Shoulders Display', cursive; */
   font-family: 'Lexend Deca', sans-serif;
+  color: var(--background-headings-buttons-color);
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+button {
+  border-radius: 1rem;
+}
+
+p {
+  color: var(--paragraphs-color);
+}
+
+/* || SEDANS */
+
+.sedans {
+  background-color: var(--bright-orange);
+}
+
+.sedans button {
+  color: var(--bright-orange);
+}
+
+/* || SUVS */
+
+.suvs {
+  background-color: var(--dark-cyan);
+}
+
+.suvs button {
+  color: var(--dark-cyan);
+}
+
+/* || LUXURY */
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+}
+
+.luxury button {
+  color: var(--very-dark-cyan);
 }
 
 /* || ATTRIBUTION */
