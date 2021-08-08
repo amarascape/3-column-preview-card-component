@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-- [Desktop View](screenshot/desktop-view-screenshot.png)
-- [Mobile View](screenshot/mobile-view-screenshot.png)
+- [Desktop View](screenshots/desktop-view-screenshot.png)
+- [Mobile View](screenshots/mobile-view-screenshot.png)
 
 ### Links
 
