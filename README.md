@@ -91,6 +91,8 @@ Users should be able to:
 ### Useful resources
 
 - [text-transform - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform) - MDN Reference for ```text-transform```
+- [A Complete Guide to Flexbox | CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - Used as a referece for ```align-self``` for flexbox items
+- [Chrome Developer Tools](screenshots/desktop-view-screenshot.png) - Allows you to experiment with different settigns on the flex box without changing the CSS. Makes it really easy and simple to experiment with how different CSS rules would work. 
 
 ## Author
 
