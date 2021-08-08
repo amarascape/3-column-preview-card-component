@@ -15,24 +15,97 @@ html {
   box-sizing: inherit;
 }
 
+/* || CENTERING MAIN IN BODY */
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+main {
+  width: 100%;
+  max-width: 85%;
+  padding: 1rem;
+  margin: auto;
+}
+
 /* || GLOBAL STYLES */
 
 body {
   font-size: 15px;
   font-family: 'Lexend Deca', sans-serif;
   color: var(--background-headings-buttons-color);
+  background-color: var(--background-headings-buttons-color);
 }
 
 h1 {
   font-family: 'Big Shoulders Display', cursive;
-}
-
-button {
-  border-radius: 1rem;
+  text-transform: uppercase;
 }
 
 p {
   color: var(--paragraphs-color);
+}
+
+.car-item {
+  padding: 2rem 2rem;
+  min-width: 260px;
+}
+
+.car-item:first-of-type {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.car-item:last-of-type {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+img, h1, p, a {
+  padding-bottom: 1rem;
+}
+
+/* || BUTTONS */
+
+.btn {
+  /* bootstrap */
+  border-radius: 2rem;
+}
+
+.btn-sedans {
+  color: var(--bright-orange);
+  background-color: white;
+}
+
+.btn-sedans:hover {
+  color: white;
+  background-color: var(--bright-orange);
+  border-color: white;
+}
+
+.btn-suvs {
+  color: var(--dark-cyan);
+  background-color: white;
+}
+
+.btn-suvs:hover {
+  color: white;
+  background-color: var(--dark-cyan);
+  border-color: white;
+}
+
+.btn-luxurys {
+  color: var(--very-dark-cyan);
+  background-color: white;
+}
+
+.btn-luxurys:hover {
+  color: white;
+  background-color: var(--very-dark-cyan);
+  border-color: white;
 }
 
 /* || SEDANS */
@@ -41,18 +114,10 @@ p {
   background-color: var(--bright-orange);
 }
 
-.sedans button {
-  color: var(--bright-orange);
-}
-
 /* || SUVS */
 
 .suvs {
   background-color: var(--dark-cyan);
-}
-
-.suvs button {
-  color: var(--dark-cyan);
 }
 
 /* || LUXURY */
@@ -61,14 +126,12 @@ p {
   background-color: var(--very-dark-cyan);
 }
 
-.luxury button {
-  color: var(--very-dark-cyan);
-}
-
 /* || ATTRIBUTION */
 
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
+  color: black;
 }
 
 .attribution a {
