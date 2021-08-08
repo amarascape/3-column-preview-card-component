@@ -51,7 +51,7 @@ p {
 
 .car-item {
   padding: 2rem 2rem;
-  min-width: 260px;
+  /* min-width: 260px; */
 }
 
 .car-item:first-of-type {
