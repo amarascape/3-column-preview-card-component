@@ -2,7 +2,6 @@
 
 /* || DESKTOP : for sizes 950px and larger */
 @media screen and (min-width: 950px){
-  /* || Global Styles */
   .car-items-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,8 +19,19 @@
   .btn {
     margin-top: 2rem;
   }
-  /* || Centering Main in Body */
+  /* || Centering Main */
   main {
-    padding-top: 8rem;
+    padding-top: 7.5rem;
+  }
+}
+
+/* || DESKTOP : for sizes 1920px and larger */
+@media screen and (min-width: 1920px){
+  /* || Global Styles */
+  body {
+    max-width: 1920px;
+  }
+  footer {
+    width: 100%;
   }
 }
